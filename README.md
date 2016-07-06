@@ -1,2 +1,9 @@
-# test00
-Erlang Websocket Example
+test00
+=====
+
+An OTP application
+
+Build
+-----
+
+    $ rebar3 compile
