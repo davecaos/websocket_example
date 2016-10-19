@@ -1,0 +1,12 @@
+{application,websocket_example,
+             [{description,"An OTP application"},
+              {vsn,"0.1.0"},
+              {registered,[]},
+              {mod,{websocket_example_app,[]}},
+              {applications,[kernel,stdlib,cowboy,lager]},
+              {env,[]},
+              {modules,[cachetes,fact_handler,factorial,factorial_server,
+                        websocket_example_app,websocket_example_sup]},
+              {maintainers,["David Cesar Hernan Cao"]},
+              {licenses,[]},
+              {links,[]}]}.

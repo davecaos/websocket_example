@@ -3,7 +3,7 @@
 %% @end
 %%%-------------------------------------------------------------------
 
--module(test00_sup).
+-module(websocket_example_sup).
 
 -behaviour(supervisor).
 

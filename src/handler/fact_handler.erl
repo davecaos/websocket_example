@@ -11,7 +11,7 @@ init({tcp, http}, _Req, _Opts) ->
   {upgrade, protocol, cowboy_websocket}.
 
 
-handle(Req, State) ->
+handle(_Req, State) ->
     {ok, Req2} = cowboy_http_req:reply(404, [{'Content-Type', <<"text/html">>}]),
     {ok, Req2, State}.
 

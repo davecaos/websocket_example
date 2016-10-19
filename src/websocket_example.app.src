@@ -1,8 +1,8 @@
-{application, test00,
+{application, websocket_example,
  [{description, "An OTP application"},
   {vsn, "0.1.0"},
   {registered, []},
-  {mod, { test00_app, []}},
+  {mod, { websocket_example_app, []}},
   {applications,
    [kernel,
     stdlib,
@@ -12,7 +12,7 @@
   {env,[]},
   {modules, []},
 
-  {maintainers, []},
+  {maintainers, ["David Cesar Hernan Cao"]},
   {licenses, []},
   {links, []}
  ]}.

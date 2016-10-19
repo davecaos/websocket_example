@@ -3,7 +3,7 @@
 %% @end
 %%%-------------------------------------------------------------------
 
--module(test00_app).
+-module(websocket_example_app).
 
 -behaviour(application).
 
@@ -23,7 +23,7 @@ start(_StartType, _StartArgs) ->
     {ok, _} = cowboy:start_http(http, 100, [{port, 8082}],
         [{env, [{dispatch, Dispatch}]}]),
     ok = cachetes:start(),
-    test00_sup:start_link().
+    websocket_example_sup:start_link().
 
 %%--------------------------------------------------------------------
 stop(_State) ->
