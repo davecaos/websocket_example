@@ -1,4 +1,4 @@
-test00
+Erlang Websocket Example
 =====
 
 An OTP application
